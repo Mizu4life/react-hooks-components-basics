@@ -2,13 +2,10 @@ import React from "react";
 import Article from "./Article";
 import Comment from "./Comment";
 
-function App() {
-  return (
-    <div>
+const App = () =>
+    (<div>
       <Article />
       <Comment />
-    </div>
-  );
-}
+    </div>);
 
 export default App;
